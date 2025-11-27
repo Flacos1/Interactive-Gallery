@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Gallery</title>
+    <link rel="icon" href="images/gallery.png">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="background"></div>                         
+    <h1> INDIAN ARCHITECTURE</h1>
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Search <input type="search"></li>
+            <li>Filter 
+            <select name="s" id="state">
+            <option value="a">Select</option>
+            <option value="uttar pradesh">Uttar Pradesh</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="delhi">Delhi</option>
+            <option value="punjab">Punjab</option>
+            <option value="odisha">Odisha</option>
+            <option value="west bengal">West Bengal</option>
+            <option value="madhya pradesh">Madhya Pradesh</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="chandigarh">Chandigarh</option>
+            <option value="tamil nadu">Tamil Nadu</option>
+            <option value="telangana">Telangana</option>
+            <option value="karnataka">Karnataka</option>
+            </select></li>
+            <li>Sort <select name="a" id="sort">
+                <option>Select</option>
+                <option value="ascending">Ascending Order</option>
+                <option value="descending">Descending Order</option>
+            </select></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div data-a="taj mahal" data-states="uttar pradesh">
+            <img  src="images/taj_mahal.jpg">
+            <p>Taj Mahal</p>
+        </div>
+        <div data-a="hawa mahal" data-states="rajasthan">
+            <img src="images/Hawa Mahal.jpg">
+            <p>Hawa Mahal</p>
+        </div>
+        <div data-a="amer fort" data-states="rajasthan">
+            <img src="images/amer_fort.jpg">
+            <p>Amer Fort</p>
+        </div>
+        <div data-a="chand baori" data-states="rajasthan">
+            <img src="images/Chand Baori.jpg">
+            <p>Chand Bhori</p>
+        </div>
+        <div data-a="taj lake palace" data-states="rajasthan">
+            <img src="images/Taj Lake Palace.jpg">
+            <p>Taj Lake Palace</p>
+        </div>
+        <div data-a="qutub minar" data-states="delhi">
+            <img src="images/Qutub Minar.jpg">
+            <p>Qutub Minar</p>
+        </div>
+        <div data-a="humayun tomb" data-states="delhi">
+            <img src="images/Humayun's Tomb.jpg">
+            <p>Humayun Tomb</p>
+        </div>
+        <div data-a="india gate" data-states="delhi">
+            <img src="images/India Gate.jpg">
+            <p>India Gate</p>
+        </div>
+        <div data-a="golden temple" data-states="punjab">
+            <img src="images/Golden Temple.jpg">
+            <p>Golden Temple</p>
+        </div>
+        <div data-a="konark sun temple" data-states="odisha">
+            <img src="images/konark sun temple.webp">
+            <p>Konark Sun Temple</p>
+        </div>
+        <div data-a="khajuraho" data-states="madhya pradesh">
+            <img src="images/Khajuraho.jpg">
+            <p>Khajuraho Temple</p>
+        </div>
+        <div data-a="taj mahal palace" data-states="maharashtra">
+            <img src="images/Taj Mahal Palace.jpg">
+            <p>Taj Mahal Palace</p>
+        </div>
+        <div data-a="gateway of india" data-states="maharashtra">
+            <img src="images/Gateway of India.jpg">
+            <p>Gateway of India</p>
+        </div>
+        <div data-a="ajanta and ellora caves" data-states="maharashtra">
+            <img src="images/Ajanta and Ellora Caves.jpg">
+            <p>Ajanta and Ellora Caves</p>
+        </div>
+        <div data-a="meenakshi amman temple" data-states="tamil nadu">
+            <img src="images/Meenakshi Amman Temple.jpg">
+            <p>Meenakshi Amman Temple</p>
+        </div>
+        <div data-a="taj falaknuma" data-states="telangana">
+            <img src="images/Taj Falaknuma.jpg">
+            <p>Taj Falaknuma</p>
+        </div>
+        <div data-a="lotus temple" data-states="delhi" >
+            <img src="images/lotus temple.webp">
+            <p>Lotus Temple</p>
+        </div>
+        <div data-a="jaisalmer fort" data-states="rajasthan">
+            <img src="images/Jaisalmer_fort.jpg">
+            <p>Jaisalmer Fort</p>
+        </div>
+        <div data-a="akshardham temple" data-states="delhi">
+            <img src="images/Akshardham Temple.jpg">
+            <p>Akshardham Temple</p>
+        </div>
+        <div data-a="agra fort" data-states="uttar pradesh">
+            <img src="images/Agra_Fort.jpg">
+            <p>Agra Fort</p>
+        </div>
+        <div data-a="victorial memorial" data-states="west bengal">
+            <img src="images/Victoria_Memorial.jpg">
+            <p>Victoria Memorial</p>
+        </div>
+        <div data-a="sanchi stupa" data-states="madhya pradesh">
+            <img src="images/sanchi stupa.jpg">
+            <p>Sanchi Stupa</p>
+        </div>
+        <div data-a="umaid bhawan palace" data-states="rajasthan">
+            <img src="images/Umaid_Bhawan_Palace.jpg">
+            <p>Umaid Bhawan Palace</p>
+        </div>
+        <div data-a="bandra worli sea link" data-states="maharashtra">
+            <img src="images/bandra worli sea link.jpg">
+            <p>Bandra Worli Sea Link</p>
+        </div>
+        <div data-a="chandigarh capitol complex" data-states="chandigarh">
+            <img src="images/Chandigarh Capitol Complex.jpg">
+            <p>Chandigarh Capitol Complex</p>
+        </div>
+        <div data-a="matrimandir" data-states="tamil nadu">
+            <img src="images/Matrimandir.jpg">
+            <p>Matrimandir</p>
+        </div>
+        <div data-a="Golconda Fort" data-states="telangana">
+            <img src="images/1729px-Golconda_Fort_005.jpg">
+            <p>Golconda Fort</p>
+        </div>
+        <div data-a="Mysore Palace" data-states="karnataka">
+            <img src="images/1920px-Mysore_Palace_Morning.jpg">
+            <p>Mysore Palace</p>
+        </div>  
+    </div>
+    
+    
+    <div id="taj mahal" class="a">
+        <span>&times</span>
+        <img  src="images/taj_mahal.jpg" class="b">
+    </div>
+    <div id="hawa mahal" class="a">
+        <span>&times</span>
+        <img  src="images/Hawa Mahal.jpg" class="b">
+    </div>
+    <div id="amer fort" class="a">
+        <span>&times</span>
+        <img src="images/amer_fort.jpg" class="b">
+    </div>
+    <div id="chand baori" class="a">
+        <span>&times</span>
+        <img src="images/Chand Baori.jpg" class="b">
+    </div>
+    <div id="taj lake palace" class="a">
+        <span>&times</span>
+        <img src="images/Taj Lake Palace.jpg" class="b">
+    </div>
+    <div id="qutub minar" class="a">
+        <span>&times</span>
+        <img src="images/Qutub Minar.jpg" class="b">
+    </div>
+    <div id="humayun tomb" class="a">
+        <span>&times</span>
+        <img src="images/Humayun's Tomb.jpg" class="b">
+    </div>
+    <div id="india gate" class="a">
+        <span>&times</span>
+        <img src="images/India Gate.jpg" class="b">
+    </div>
+    <div id="golden temple" class="a">
+        <span>&times</span>
+        <img src="images/Golden Temple.jpg" class="b">
+    </div>
+    <div id="konark sun temple" class="a">
+        <span>&times</span>
+        <img src="images/konark sun temple.webp" class="b">
+    </div>
+    <div id="khajuraho" class="a">
+        <span>&times</span>
+        <img src="images/Khajuraho.jpg" class="b">
+    </div>
+    <div id="taj mahal palace" class="a">
+        <span>&times</span>
+        <img src="images/Taj Mahal Palace.jpg" class="b">
+    </div>
+    <div id="gateway of india" class="a">
+        <span>&times</span>
+        <img src="images/Gateway of India.jpg" class="b">
+    </div>
+    <div id="ajanta and ellora caves" class="a">
+        <span>&times</span>
+        <img src="images/Ajanta and Ellora Caves.jpg" class="b">
+    </div>
+    <div id="meenakshi amman temple" class="a">
+        <span>&times</span>
+        <img src="images/Meenakshi Amman Temple.jpg" class="b">
+    </div>
+    <div id="taj falaknuma" class="a">
+        <span>&times</span>
+        <img src="images/Taj Falaknuma.jpg" class="b">
+    </div>
+    <div id="lotus temple" class="a">
+        <span>&times</span>
+        <img src="images/lotus temple.webp" class="b">
+    </div>
+    <div id="jaisalmer fort" class="a">
+        <span>&times</span>
+        <img src="images/Jaisalmer_fort.jpg" class="b">
+    </div>
+    <div id="akshardham temple" class="a">
+        <span>&times</span>
+        <img src="images/Akshardham Temple.jpg" class="b">
+    </div>
+    <div id="agra fort" class="a">
+        <span>&times</span>
+        <img src="images/Agra_Fort.jpg" class="b">
+    </div>
+    <div id="victorial memorial" class="a">
+        <span>&times</span>
+        <img src="images/Victoria_Memorial.jpg" class="b">
+    </div>
+    <div id="sanchi stupa" class="a">
+        <span>&times</span>
+        <img src="images/sanchi stupa.jpg" class="b">
+    </div>
+    <div id="umaid bhawan palace" class="a">
+        <span>&times</span>
+        <img src="images/Umaid_Bhawan_Palace.jpg" class="b">
+    </div>
+    <div id="bandra worli sea link" class="a">
+        <span>&times</span>
+        <img src="images/bandra worli sea link.jpg" class="b">
+    </div>
+    <div id="chandigarh capitol complex" class="a">
+        <span>&times</span>
+        <img src="images/Chandigarh Capitol Complex.jpg" class="b">
+    </div>
+    <div id="matrimandir" class="a">
+        <span>&times</span>
+        <img src="images/Matrimandir.jpg" class="b">
+    </div>
+    <div id="Golconda Fort" class="a">
+        <span>&times</span>
+        <img src="images/1729px-Golconda_Fort_005.jpg" class="b">
+    </div>
+    <div id="Mysore Palace" class="a">
+        <span>&times</span>
+        <img src="images/1920px-Mysore_Palace_Morning.jpg" class="b">
+    </div> 
+
+</body>
+</html>
