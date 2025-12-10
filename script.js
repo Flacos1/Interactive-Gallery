@@ -4,8 +4,7 @@ b.addEventListener('search',function(){
     const value=b.value.toLowerCase();
     for(let i=0;i<a.length;i++){
         data=a[i].getAttribute("data-a").toLowerCase();
-        let r=new RegExp("^"+value);
-        console.log(r);
+        let r=new RegExp("^(?:\\b\\w+\\b\\s+){0,3}"+value);
         if(value!=="" && data.match(r)){
         a[i].style.display="grid";
         a[i].style.gridAutoRows="minmax(150px,auto)";
