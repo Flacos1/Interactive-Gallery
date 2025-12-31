@@ -1,7 +1,10 @@
 const a=document.querySelectorAll("[data-a]");
 const b=document.querySelector('input[type="search"]');
+let f=document.querySelector("select");
+
+// Searching
 b.addEventListener('search',function(){
-    const value=b.value.toLowerCase();
+    value=b.value.toLowerCase();
     for(let i=0;i<a.length;i++){
         data=a[i].getAttribute("data-a").toLowerCase();
         let r=new RegExp("^(?:\\b\\w+\\b\\s+){0,3}"+value);
@@ -20,22 +23,24 @@ b.addEventListener('search',function(){
         }
     }});
 
-    
-let f=document.querySelector("#state");
+// Filtering
 f.addEventListener('change',function(){
     let filter=f.value;
+    let v1=b.value.toLowerCase();  
     for(let i=0;i<a.length;i++){
         data=a[i].getAttribute("data-states").toLowerCase();
-        if(filter==data){
+        data2=a[i].getAttribute("data-a").toLowerCase();
+        let r=new RegExp("^(?:\\b\\w+\\b\\s+){0,3}"+v1);
+        if(filter==data && data2.match(r)){
             a[i].style.display="grid";
             a[i].style.gridAutoRows="minmax(150px,auto)";
             a[i].style.display="inline";
         }
-        else if (filter === "a") {
+        else if (filter == "a" && data2.match(r)) {
             a[i].style.display="grid";
             a[i].style.gridAutoRows="minmax(150px,auto)";
             a[i].style.display="inline";
-        } 
+        }
         else{
             a[i].style.display="none";
         }
@@ -43,6 +48,7 @@ f.addEventListener('change',function(){
     
 });
 
+// Sorting
 let s=document.querySelector("#sort");
 let c=document.querySelector(".container");
 let d=document.querySelectorAll("div[data-a]");
@@ -78,12 +84,11 @@ s.addEventListener('change',function(){
         }
     })}
     for(let i=0;i<arr.length;i++){
-        console.log(arr[i]);
         c.appendChild(arr[i]);
     }
 });
 
-
+// Zooming
 let a2=document.querySelectorAll("div[data-a]");
 for(let i=0;i<a2.length;i++){
 a2[i].addEventListener("click",function(){
