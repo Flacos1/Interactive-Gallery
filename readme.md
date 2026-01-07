@@ -9,6 +9,8 @@ Searching
 
 ![](./gif/searching.mp4)
 
+
+
 # Features
 - Searching: Users can search photos of architecture
 - Filtering: Filter the images by states.
