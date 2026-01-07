@@ -9,6 +9,10 @@ Searching
 
 ![](./gif/searching.gif)
 
+
+Uploading Screen Recording 2026-01-08 005150.mp4…
+
+
 # Features
 - Searching: Users can search photos of architecture
 - Filtering: Filter the images by states.
