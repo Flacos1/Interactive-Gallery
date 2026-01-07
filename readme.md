@@ -6,10 +6,7 @@ Check out the live demo here: [Gallery Live Demo](https://flacos1.github.io/Inte
 
 # Screenshot/GIF
 Searching
-
-![](./gif/searching.mp4)
-
-
+https://github.com/user-attachments/assets/0682398d-fd50-4eb3-ae82-7374f1f774db
 
 # Features
 - Searching: Users can search photos of architecture
