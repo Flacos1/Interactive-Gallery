@@ -5,8 +5,9 @@ a gallery website which is highly interactive by searching , filtering and sorti
 Check out the live demo here: [Gallery Live Demo](https://flacos1.github.io/Interactive-Gallery/)
 
 # Screenshot/GIF
-Searching
-https://github.com/user-attachments/assets/0682398d-fd50-4eb3-ae82-7374f1f774db
+Homepage:
+![](./gif/homepage.png)
+
 
 # Features
 - Searching: Users can search photos of architecture
