@@ -13,10 +13,12 @@ Check out the live demo here: [Gallery Live Demo](https://flacos1.github.io/Inte
 
 **Filtering:**
 ![](./screenshot/filtering.png)
+
 ![](./screenshot/filtering2.png)
 
 **Sorting:**
 ![](./screenshot/sorting.png)
+
 ![](./screenshot/sorting2.png)
 
 # Features
