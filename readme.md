@@ -4,10 +4,20 @@ a gallery website which is highly interactive by searching , filtering and sorti
 # Live Demo
 Check out the live demo here: [Gallery Live Demo](https://flacos1.github.io/Interactive-Gallery/)
 
-# Screenshot/GIF
-Homepage:
-![](./gif/homepage.png)
+# Screenshot
+**Homepage:**
+![](./screenshot/homepage.png)
 
+**Searching:**
+![](./screenshot/searching.png)
+
+**Filtering:**
+![](./screenshot/filtering.png)
+![](./screenshot/filtering2.png)
+
+**Sorting:**
+![](./screenshot/sorting.png)
+![](./screenshot/sorting2.png)
 
 # Features
 - Searching: Users can search photos of architecture
